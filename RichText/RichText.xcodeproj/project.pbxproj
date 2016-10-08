@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2056CFA1DA88DD500D939E0 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2056CF91DA88DD500D939E0 /* Emoticons.bundle */; };
+		D2056CFE1DA88E2200D939E0 /* Emoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056CFD1DA88E2200D939E0 /* Emoticon.m */; };
+		D2056D011DA88E5300D939E0 /* EmotionPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D001DA88E5300D939E0 /* EmotionPackage.m */; };
+		D2056D041DA88E7700D939E0 /* emotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D031DA88E7700D939E0 /* emotionManager.m */; };
+		D2056D0B1DA8BEA800D939E0 /* EmioticonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D0A1DA8BEA800D939E0 /* EmioticonViewCell.m */; };
+		D2056D0E1DA8E58300D939E0 /* UITextView+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D0D1DA8E58300D939E0 /* UITextView+Input.m */; };
+		D2056D111DA8E9F600D939E0 /* EmoticonAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D101DA8E9F600D939E0 /* EmoticonAttachment.m */; };
+		D2056D141DA8F62B00D939E0 /* FindEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = D2056D131DA8F62B00D939E0 /* FindEmoticon.m */; };
 		D2483AB31DA4E5A200DD6DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483AB21DA4E5A200DD6DCB /* main.m */; };
 		D2483AB61DA4E5A200DD6DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483AB51DA4E5A200DD6DCB /* AppDelegate.m */; };
 		D2483AB91DA4E5A200DD6DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483AB81DA4E5A200DD6DCB /* ViewController.m */; };
@@ -15,6 +23,7 @@
 		D2483AC11DA4E5A200DD6DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2483ABF1DA4E5A200DD6DCB /* LaunchScreen.storyboard */; };
 		D2483ACC1DA4E5A200DD6DCB /* RichTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483ACB1DA4E5A200DD6DCB /* RichTextTests.m */; };
 		D2483AD71DA4E5A200DD6DCB /* RichTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483AD61DA4E5A200DD6DCB /* RichTextUITests.m */; };
+		D2483AE71DA4F4D800DD6DCB /* EmotionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2483AE61DA4F4D800DD6DCB /* EmotionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2056CF91DA88DD500D939E0 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		D2056CFC1DA88E2200D939E0 /* Emoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoticon.h; sourceTree = "<group>"; };
+		D2056CFD1DA88E2200D939E0 /* Emoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoticon.m; sourceTree = "<group>"; };
+		D2056CFF1DA88E5300D939E0 /* EmotionPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionPackage.h; sourceTree = "<group>"; };
+		D2056D001DA88E5300D939E0 /* EmotionPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionPackage.m; sourceTree = "<group>"; };
+		D2056D021DA88E7700D939E0 /* emotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emotionManager.h; sourceTree = "<group>"; };
+		D2056D031DA88E7700D939E0 /* emotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = emotionManager.m; sourceTree = "<group>"; };
+		D2056D091DA8BEA800D939E0 /* EmioticonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmioticonViewCell.h; sourceTree = "<group>"; };
+		D2056D0A1DA8BEA800D939E0 /* EmioticonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmioticonViewCell.m; sourceTree = "<group>"; };
+		D2056D0C1DA8E58300D939E0 /* UITextView+Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Input.h"; sourceTree = "<group>"; };
+		D2056D0D1DA8E58300D939E0 /* UITextView+Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Input.m"; sourceTree = "<group>"; };
+		D2056D0F1DA8E9F600D939E0 /* EmoticonAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonAttachment.h; sourceTree = "<group>"; };
+		D2056D101DA8E9F600D939E0 /* EmoticonAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonAttachment.m; sourceTree = "<group>"; };
+		D2056D121DA8F62B00D939E0 /* FindEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindEmoticon.h; sourceTree = "<group>"; };
+		D2056D131DA8F62B00D939E0 /* FindEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindEmoticon.m; sourceTree = "<group>"; };
 		D2483AAE1DA4E5A200DD6DCB /* RichText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2483AB21DA4E5A200DD6DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2483AB41DA4E5A200DD6DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,8 @@
 		D2483AD21DA4E5A200DD6DCB /* RichTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2483AD61DA4E5A200DD6DCB /* RichTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextUITests.m; sourceTree = "<group>"; };
 		D2483AD81DA4E5A200DD6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2483AE51DA4F4D800DD6DCB /* EmotionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionController.h; sourceTree = "<group>"; };
+		D2483AE61DA4F4D800DD6DCB /* EmotionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2056CFB1DA88DF900D939E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2056D021DA88E7700D939E0 /* emotionManager.h */,
+				D2056D031DA88E7700D939E0 /* emotionManager.m */,
+				D2056CFF1DA88E5300D939E0 /* EmotionPackage.h */,
+				D2056D001DA88E5300D939E0 /* EmotionPackage.m */,
+				D2056CFC1DA88E2200D939E0 /* Emoticon.h */,
+				D2056CFD1DA88E2200D939E0 /* Emoticon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		D2483AA51DA4E5A200DD6DCB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,8 @@
 		D2483AB01DA4E5A200DD6DCB /* RichText */ = {
 			isa = PBXGroup;
 			children = (
+				D2056CF91DA88DD500D939E0 /* Emoticons.bundle */,
+				D2483AE41DA4F0FC00DD6DCB /* emotions */,
 				D2483AB41DA4E5A200DD6DCB /* AppDelegate.h */,
 				D2483AB51DA4E5A200DD6DCB /* AppDelegate.m */,
 				D2483AB71DA4E5A200DD6DCB /* ViewController.h */,
@@ -138,6 +179,24 @@
 				D2483AD81DA4E5A200DD6DCB /* Info.plist */,
 			);
 			path = RichTextUITests;
+			sourceTree = "<group>";
+		};
+		D2483AE41DA4F0FC00DD6DCB /* emotions */ = {
+			isa = PBXGroup;
+			children = (
+				D2056CFB1DA88DF900D939E0 /* Model */,
+				D2483AE51DA4F4D800DD6DCB /* EmotionController.h */,
+				D2483AE61DA4F4D800DD6DCB /* EmotionController.m */,
+				D2056D091DA8BEA800D939E0 /* EmioticonViewCell.h */,
+				D2056D0A1DA8BEA800D939E0 /* EmioticonViewCell.m */,
+				D2056D0F1DA8E9F600D939E0 /* EmoticonAttachment.h */,
+				D2056D101DA8E9F600D939E0 /* EmoticonAttachment.m */,
+				D2056D0C1DA8E58300D939E0 /* UITextView+Input.h */,
+				D2056D0D1DA8E58300D939E0 /* UITextView+Input.m */,
+				D2056D121DA8F62B00D939E0 /* FindEmoticon.h */,
+				D2056D131DA8F62B00D939E0 /* FindEmoticon.m */,
+			);
+			path = emotions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2483AC11DA4E5A200DD6DCB /* LaunchScreen.storyboard in Resources */,
+				D2056CFA1DA88DD500D939E0 /* Emoticons.bundle in Resources */,
 				D2483ABE1DA4E5A200DD6DCB /* Assets.xcassets in Resources */,
 				D2483ABC1DA4E5A200DD6DCB /* Main.storyboard in Resources */,
 			);
@@ -270,7 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2056D0B1DA8BEA800D939E0 /* EmioticonViewCell.m in Sources */,
+				D2056D0E1DA8E58300D939E0 /* UITextView+Input.m in Sources */,
+				D2056D111DA8E9F600D939E0 /* EmoticonAttachment.m in Sources */,
+				D2056D011DA88E5300D939E0 /* EmotionPackage.m in Sources */,
+				D2056CFE1DA88E2200D939E0 /* Emoticon.m in Sources */,
+				D2056D041DA88E7700D939E0 /* emotionManager.m in Sources */,
 				D2483AB91DA4E5A200DD6DCB /* ViewController.m in Sources */,
+				D2483AE71DA4F4D800DD6DCB /* EmotionController.m in Sources */,
+				D2056D141DA8F62B00D939E0 /* FindEmoticon.m in Sources */,
 				D2483AB61DA4E5A200DD6DCB /* AppDelegate.m in Sources */,
 				D2483AB31DA4E5A200DD6DCB /* main.m in Sources */,
 			);
@@ -498,6 +566,7 @@
 				D2483ADD1DA4E5A200DD6DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2483ADE1DA4E5A200DD6DCB /* Build configuration list for PBXNativeTarget "RichTextTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +575,7 @@
 				D2483AE01DA4E5A200DD6DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2483AE11DA4E5A200DD6DCB /* Build configuration list for PBXNativeTarget "RichTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +584,7 @@
 				D2483AE31DA4E5A200DD6DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
